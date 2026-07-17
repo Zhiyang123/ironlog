@@ -1,0 +1,16 @@
+# Secrets — never commit environment or credential files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets/
+
+# Local data & backups (user data never belongs in the repo)
+ironlog-backup-*.json
+data/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
